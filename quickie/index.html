@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0bbb180be.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <title>Quickie - Take notes, quick.</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="side">
+            <h1><i class="fas fa-cog"></i> Options</h1>
+            <table id="options-table">
+                <tr>
+                    <td>
+                        <p class="options-btn" id="del-btn"><i class="fas fa-trash"></i></p>
+                    </td>
+                    <td>
+                        <p class="options-btn" id="save-btn"><i class="fas fa-save"></i></p>
+                    </td>
+                    <td>
+                        <p class="options-btn" id="new-btn"><i class="fas fa-plus-square"></i></p>
+                    </td>
+                </tr>
+            </table>
+            <h1><i class="fas fa-sticky-note"></i> All Notes</h1>
+            <table id="all-notes-table">
+                <tr>
+                    <td>Example Note</td>
+                </tr>
+            </table>
+        </div>
+        <div id="edit-note">
+            <input type="text" spellcheck="false" placeholder="Title" name="title-input" id="title">
+            <textarea name="note-area" spellcheck="false" id="note" placeholder="Your note..."></textarea>
+        </div>
+    </div>
+</body>
+</html>
